@@ -1,0 +1,6 @@
+#!/bin/sh
+cd cmd;
+gulp clean;
+# gulp lint;
+gulp less;
+gulp browserify;
